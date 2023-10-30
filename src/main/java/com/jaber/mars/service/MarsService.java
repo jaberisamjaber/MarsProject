@@ -25,7 +25,10 @@ public class MarsService {
 		// building the url
 		StringBuilder st = new StringBuilder("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?");
 		st.append("sol=" + sol);
-		st.append("&camera=" + camera);
+		// if camera type is any, then do not add it	
+		if(!camera.equals("any")) {
+			st.append("&camera=" + camera);
+		}
 		st.append("&api_key=" + key);
 		
 		// calling the api
