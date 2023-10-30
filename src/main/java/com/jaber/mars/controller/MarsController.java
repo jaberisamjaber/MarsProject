@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jaber.mars.service.MarsService;
 
-@CrossOrigin(origins={"http://localhost:4200","mars-solo-project.netlify.app"})
+@CrossOrigin(origins={"http://localhost:4200","http://mars-solo-project.netlify.app"})
 @RestController
 public class MarsController {
 	
