@@ -1,4 +1,4 @@
-Mars Photo Api 
+**Mars Photo Api **
 
 Overview
 For the backend, I used Spring boot to create and process the necessary API calls made to NASAs api. 
